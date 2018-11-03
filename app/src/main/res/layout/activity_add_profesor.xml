@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".addProfesor">
+
+    <Button
+        android:id="@+id/insertarAlumno"
+        android:layout_width="188dp"
+        android:layout_height="55dp"
+        android:layout_marginEnd="96dp"
+        android:layout_marginBottom="76dp"
+        android:text="InsertarProfesor"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <EditText
+        android:id="@+id/nombreProfesor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="106dp"
+        android:layout_marginBottom="8dp"
+        android:ems="10"
+        android:hint="Nombre"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/edadProfesor"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <EditText
+        android:id="@+id/edadProfesor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="107dp"
+        android:layout_marginBottom="9dp"
+        android:ems="10"
+        android:hint="Edad"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/cicloProfesor"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <EditText
+        android:id="@+id/cicloProfesor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="108dp"
+        android:ems="10"
+        android:hint="Ciclo"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/cursoProfesor"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <EditText
+        android:id="@+id/cursoProfesor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="109dp"
+        android:ems="10"
+        android:hint="Curso del tutor"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/despachoProfesor"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <EditText
+        android:id="@+id/despachoProfesor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="108dp"
+        android:layout_marginBottom="81dp"
+        android:ems="10"
+        android:hint="Despacho"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/insertarAlumno"
+        app:layout_constraintEnd_toEndOf="parent" />
+</android.support.constraint.ConstraintLayout>
