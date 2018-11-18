@@ -61,6 +61,26 @@ public class actividad3 extends AppCompatActivity {
 
             }
         });
+        // EXAMEN A
+        final Button btnDevolverHoras = (Button) findViewById(R.id.btnHoras);
+        btnDevolverHoras.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+
+                Intent intento = new Intent(v.getContext(),HorasAsignatura.class);
+                startActivity(intento);
+
+            }
+        });
+        // EXAMEN A
+        final Button btnDevolverDAMDAW = (Button) findViewById(R.id.btnDAMDAW);
+        btnDevolverDAMDAW.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+
+                Intent intento = new Intent(v.getContext(),DAMDAW.class);
+                startActivity(intento);
+
+            }
+        });
     }
 
 }

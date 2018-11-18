@@ -25,7 +25,10 @@
         <activity android:name=".todosLosEstudiantesCiclos" />
         <activity android:name=".todosLosEstudiantesCursos" />
         <activity android:name=".todosLosProfesores" />
-        <activity android:name=".todosLosEstudianteProfesores"></activity>
+        <activity android:name=".todosLosEstudianteProfesores" />
+        <activity android:name=".addAsignatura" />
+        <activity android:name=".HorasAsignatura" />
+        <activity android:name=".DAMDAW"></activity>
     </application>
 
 </manifest>

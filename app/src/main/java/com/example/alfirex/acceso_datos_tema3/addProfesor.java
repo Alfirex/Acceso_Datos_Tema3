@@ -2,9 +2,11 @@ package com.example.alfirex.acceso_datos_tema3;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Toast;
 
 public class addProfesor extends AppCompatActivity {
 
@@ -36,7 +38,10 @@ public class addProfesor extends AppCompatActivity {
                 dbAdapter = new MyDBAdapter(v.getContext());
                 dbAdapter.open();
 
-                dbAdapter.insertarProfesor(sNombre,sEdad,sCiclo,sTutot,sDespacho);
+                String prueba = dbAdapter.insertarProfesor(sNombre,sEdad,sCiclo,sTutot,sDespacho);
+                if (prueba != ""){
+                    Toast.makeText(v.getContext(),"Ya existe un registro con ese Nombre",Toast.LENGTH_LONG).show();
+                }
 
 
             }
