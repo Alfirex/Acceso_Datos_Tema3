@@ -1,12 +1,9 @@
 package com.example.alfirex.acceso_datos_tema3;
 
-import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.app.Activity;
 import android.content.SharedPreferences;
 import android.os.Bundle;
-import android.view.Menu;
-import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -31,7 +28,7 @@ public class actividad1 extends AppCompatActivity {
 
                 // Obtenemos un editor para modificar las preferencias
                 SharedPreferences.Editor editor = mySharedPreferences.edit();
-                final EditText edNombre = (EditText) findViewById(R.id.nombre);
+                final EditText edNombre = (EditText) findViewById(R.id.etNombre);
                 String sNombre = edNombre.getText().toString();
 
                 final EditText edNombreUsuario = (EditText) findViewById(R.id.nombreUsuario);

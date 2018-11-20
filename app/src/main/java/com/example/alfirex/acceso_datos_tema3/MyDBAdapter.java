@@ -151,6 +151,18 @@ public class MyDBAdapter {
         return lista;
 
     }
+    public ArrayList<String> devolverHorasAsignatura(String nombre, String edad){
+        ArrayList<String> lista = new ArrayList<>();
+        //Recuperamos en un cursor la consulta realizada
+        Cursor cursor = db.query(DATABASE_TABLE_ALUMNOS,null, "nombre=" +"'"+ nombre+"' AND edad='"+edad+"'",null,null,null, null);
+        if (cursor != null && cursor.moveToFirst()){
+            do{
+                lista.add( "Nombre  "+cursor.getString(1) );
+            }while (cursor.moveToNext());
+        }
+        return lista;
+
+    }
 
     private static class MyDbHelper extends SQLiteOpenHelper {
 

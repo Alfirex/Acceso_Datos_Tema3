@@ -25,7 +25,8 @@
         <activity android:name=".todosLosEstudiantesCiclos" />
         <activity android:name=".todosLosEstudiantesCursos" />
         <activity android:name=".todosLosProfesores" />
-        <activity android:name=".todosLosEstudianteProfesores"></activity>
+        <activity android:name=".todosLosEstudianteProfesores" />
+        <activity android:name=".alumno_edad"></activity>
     </application>
 
 </manifest>

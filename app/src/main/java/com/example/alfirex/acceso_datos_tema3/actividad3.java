@@ -56,11 +56,12 @@ public class actividad3 extends AppCompatActivity {
         btnAllStudentsTeachers.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
 
-                Intent intento = new Intent(v.getContext(),todosLosEstudianteProfesores.class);
+                Intent intento = new Intent(v.getContext(),alumno_edad.class);
                 startActivity(intento);
 
             }
         });
+
     }
 
 }

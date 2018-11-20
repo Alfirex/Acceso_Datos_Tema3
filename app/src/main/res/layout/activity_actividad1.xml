@@ -24,7 +24,7 @@
         android:text="Mostrar preferencias" />
 
     <EditText
-        android:id="@+id/nombre"
+        android:id="@+id/etNombre"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
@@ -39,7 +39,7 @@
         android:id="@+id/nombreUsuario"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignStart="@+id/nombre"
+        android:layout_alignStart="@+id/etNombre"
         android:layout_alignParentTop="true"
         android:layout_marginStart="8dp"
         android:layout_marginTop="98dp"
@@ -51,7 +51,7 @@
         android:layout_width="232dp"
         android:layout_height="86dp"
         android:layout_above="@+id/button"
-        android:layout_alignStart="@+id/nombre"
+        android:layout_alignStart="@+id/etNombre"
         android:layout_marginStart="-3dp"
         android:layout_marginBottom="21dp">
 
@@ -74,7 +74,7 @@
         android:id="@+id/fecha"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignStart="@+id/nombre"
+        android:layout_alignStart="@+id/etNombre"
         android:layout_alignParentTop="true"
         android:layout_marginStart="5dp"
         android:layout_marginTop="167dp"
