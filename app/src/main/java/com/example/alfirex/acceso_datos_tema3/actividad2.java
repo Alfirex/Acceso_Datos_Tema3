@@ -31,5 +31,15 @@ public class actividad2 extends AppCompatActivity {
 
             }
         });
+        // Examen A
+        final Button btnAddAsignatura = (Button) findViewById(R.id.btnAñadirAsignatura);
+        btnAddAsignatura.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+
+                Intent intento = new Intent(v.getContext(),addAsignatura.class);
+                startActivity(intento);
+
+            }
+        });
     }
 }

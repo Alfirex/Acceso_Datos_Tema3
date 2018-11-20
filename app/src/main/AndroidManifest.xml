@@ -26,7 +26,13 @@
         <activity android:name=".todosLosEstudiantesCursos" />
         <activity android:name=".todosLosProfesores" />
         <activity android:name=".todosLosEstudianteProfesores" />
+<<<<<<< HEAD
         <activity android:name=".alumno_edad"></activity>
+=======
+        <activity android:name=".addAsignatura" />
+        <activity android:name=".HorasAsignatura" />
+        <activity android:name=".DAMDAW"></activity>
+>>>>>>> origin/master
     </application>
 
 </manifest>

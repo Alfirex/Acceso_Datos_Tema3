@@ -26,4 +26,14 @@
         android:text="Añadir Alumno"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btnAñadirAsignatura"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="131dp"
+        android:layout_marginBottom="66dp"
+        android:text="Añadir  Asignatura"
+        app:layout_constraintBottom_toTopOf="@+id/btnAñadirProfesor"
+        app:layout_constraintEnd_toEndOf="parent" />
 </android.support.constraint.ConstraintLayout>
